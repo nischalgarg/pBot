@@ -1,0 +1,5 @@
+datetime
+telegram
+praw
+python-telegram-bot==12.7
+mysql-connector-python==8.0.25
