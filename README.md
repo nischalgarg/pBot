@@ -82,6 +82,8 @@ ________________________________________________________________________________
 # Helpful Links
 
 [Deploy Bot on Heroku](https://towardsdatascience.com/how-to-deploy-a-telegram-bot-using-heroku-for-free-9436f89575d2)
+
 [python-telegram-bot documentation](https://python-telegram-bot.readthedocs.io/en/stable/)
+
 [Bot Examples](https://github.com/python-telegram-bot/python-telegram-bot)
 
