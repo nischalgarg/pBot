@@ -11,7 +11,9 @@ The buttons, however, shall function in the groups even without access to readin
 
 __________________________________________________________________________________________________________________________________________________
 
-The button menu has 10 buttons
+# Button Menu Layout
+
+The button menu has 10 buttons. The layout can be found in the [main code file](bot.py)
 
 1) About --> Replies with the prepared text
 2) Announcement --> Replies with the prepared text
@@ -27,9 +29,9 @@ The button menu has 10 buttons
 * Text associated with the concerned button can be found in the texts.py file.
 _____________________________________________________________________________________________________________________________________________________
 
-Trolls Functionality
+# Trolls Functionality
 
-1) Persistence Meme Club channel is regularly updated with ONLY images.
+1) Persistence Meme Club channel is regularly updated with ONLY meme material.
 2) Every channel has a channel id, which works as a unique identifier.
 3) Bot forwards a random meme from the channel in response to trolls button.
 4) Bot can access only those messages that are sent to the channel after the bot was added to the channel and was given the right to access messages.
@@ -44,19 +46,22 @@ Trolls Functionality
 
 _____________________________________________________________________________________________________________________________________________________
 
+# Keyword Recognition
+
 The bot can recognise certain phrases and keywords, listed as follows:
 
 Recognises (Hey, Hi, Hello) --> Replies with a greeting and command /start
+
 Recognises ('Who are you', 'Who is this') --> Replies with "I am your bot" and instructions to restart the bot.
-Recognises ('wallet' in user_message) --> Replies with link to persistence wallet
+
 Recognises ('comdex' in user_message) --> Replies with link to the comdex product
 
 Recognises a bunch of other keyowrds that are associated with queries that are to be answered. 
-All those questions and their answers can be found in the comments in the code file.
+All those questions and their answers can be found in the comments in the [code file](texts.py).
 
 ____________________________________________________________________________________________________________________________________________________
 
-Setup and Limitations
+# Setup and Limitations
 
 Bot is deployed on heroku server with the app name 'persistence-test-bot' under its free tier.
 The features of the same are as follows
@@ -70,5 +75,13 @@ It is also linked with a database on "remotemysql.com", credentials of which can
 1) It has a storage limit of 100 MB.
 2) The database will be deleted if it is not updated in 30 days.
 
-Use git to push files on heroku. The process has been explained here:
-https://towardsdatascience.com/how-to-deploy-a-telegram-bot-using-heroku-for-free-9436f89575d2
+Use git to push files on heroku. The process has been explained [here](https://towardsdatascience.com/how-to-deploy-a-telegram-bot-using-heroku-for-free-9436f89575d2).
+
+_______________________________________________________________________________________________________________________________________________________
+
+# Helpful Links
+
+[Deploy Bot on Heroku](https://towardsdatascience.com/how-to-deploy-a-telegram-bot-using-heroku-for-free-9436f89575d2)
+[python-telegram-bot documentation](https://python-telegram-bot.readthedocs.io/en/stable/)
+[Bot Examples](https://github.com/python-telegram-bot/python-telegram-bot)
+
