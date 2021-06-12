@@ -63,7 +63,7 @@ ________________________________________________________________________________
 
 # Setup and Limitations
 
-Bot is deployed on [Heroku](heroku.com) server with the app name 'persistence-test-bot' under its free tier.
+Bot is deployed on [Heroku](https://id.heroku.com/login) server with the app name 'persistence-test-bot' under its free tier.
 The features of the same are as follows
 
 1) The bot goes to idle 30 minutes after a message was last sent to it individually or in a group or channel the bot is a part of.
@@ -71,7 +71,7 @@ The features of the same are as follows
 3) We get 550 free hours of the service per month. These hours are not deducted when the bot is on sleep. 
 4) These free hours can be increased to 1000 per month by verifying the account with a credit card. There is no charge for the same.
 
-It is also linked with a database on [remotemysql.com](remotemysql.com), credentials of which can be found in the [bot.py](bot.py) code file.
+It is also linked with a database on [remotemysql.com](https://remotemysql.com), credentials of which can be found in the [bot.py](bot.py) code file.
 1) It has a storage limit of 100 MB.
 2) The database will be deleted if it is not updated in 30 days.
 
