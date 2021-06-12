@@ -26,7 +26,7 @@ The button menu has 10 buttons. The layout can be found in the [main code file](
 9) Alerts --> Notifies of autenticate channel and to beware of fake/spam channels
 10) Trolls --> Picks a random meme from the "Persistence Meme Club" Channel and forwards it to the user.
 
-* Text associated with the concerned button can be found in the texts.py file.
+* Text associated with the concerned button can be found in [texts.py](texts.py)
 _____________________________________________________________________________________________________________________________________________________
 
 # Trolls Functionality
