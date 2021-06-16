@@ -66,14 +66,15 @@ ________________________________________________________________________________
 To extract the sticker set we use the get_sticker_set() method which takes the name of your sticker set.
 The sticker set that the bot currently uses is "Pbull".
 
-Both these features are implemented using jobQueue. It allows to perform periodic functions with the bot.
-It has a set of functions which include run_once(), run_daily(), run_repeating().
-Apart from the function that it has to run, it takes two arguments of interval and first.
-First refers to after how many SECONDS of deploying the function is supposed to run for the first time.
-Interval refers to the number of SECONDS after which the bot will run the particular function again.
-Datetime objects can also be passed as an argument if the function is supposed to run at a particular time.
+1) Both these features are implemented using jobQueue. It allows to perform periodic functions with the bot.
+2) It has a set of functions which include run_once(), run_daily(), run_repeating().
+3) Apart from the function that it has to run, it takes two arguments of interval and first.
+4) First refers to after how many SECONDS of deploying the function is supposed to run for the first time.
+5) Interval refers to the number of SECONDS after which the bot will run the particular function again.
+6) Datetime objects can also be passed as an argument if the function is supposed to run at a particular time.
 
 Since we want to forward a message from the group only once, we use the run_once() function.
+
 For Sending random memes and stickers, we use the run_repeating() function. Every 3 hours, the bot will send meme and sticker alternatively.
 
 Find more details about the function at the [documentation](https://python-telegram-bot.readthedocs.io/en/stable/telegram.ext.jobqueue.html#telegram.ext.JobQueue)
