@@ -61,6 +61,24 @@ All those questions and their answers can be found in the comments in the [code 
 
 ____________________________________________________________________________________________________________________________________________________
 
+# Messaage Forwarding and Repeating Memes and Stickers
+
+To extract the sticker set we use the get_sticker_set() method which takes the name of your sticker set.
+The sticker set that the bot currently uses is "Pbull".
+
+Both these features are implemented using jobQueue. It allows to perform periodic functions with the bot.
+It has a set of functions which include run_once(), run_daily(), run_repeating().
+Apart from the function that it has to run, it takes two arguments of interval and first.
+First refers to after how many SECONDS of deploying the function is supposed to run for the first time.
+Interval refers to the number of SECONDS after which the bot will run the particular function again.
+Datetime objects can also be passed as an argument if the function is supposed to run at a particular time.
+
+Since we want to forward a message from the group only once, we use the run_once() function.
+For Sending random memes and stickers, we use the run_repeating() function. Every 3 hours, the bot will send meme and sticker alternatively.
+
+Find more details about the function at the [documentation](https://python-telegram-bot.readthedocs.io/en/stable/telegram.ext.jobqueue.html#telegram.ext.JobQueue)
+
+_____________________________________________________________________________________________________________________________________________________
 # Setup and Limitations
 
 Bot is deployed on [Heroku](https://id.heroku.com/login) server with the app name 'persistence-test-bot' under its free tier.
