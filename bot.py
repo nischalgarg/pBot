@@ -13,7 +13,7 @@ import mysql.connector as mysql
 ## The SQL database is required for functioning of the 'Trolls' button. ##
 
 ## Credentials for the linked database.
-HOST = "65.0.61.199:3306"    ## or link of the website that houses the database, if it shall be changed.
+HOST = "https://65.0.61.199:3306"    ## or link of the website that houses the database, if it shall be changed.
 
 DATABASE = "tbot"     ## data-base name
 
