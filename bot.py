@@ -13,13 +13,13 @@ import mysql.connector as mysql
 ## The SQL database is required for functioning of the 'Trolls' button. ##
 
 ## Credentials for the linked database.
-HOST = "remotemysql.com"    ## or link of the website that houses the database, if it shall be changed.
+HOST = "65.0.61.199:3306"    ## or link of the website that houses the database, if it shall be changed.
 
-DATABASE = "jrYPmtDJWF"     ## data-base name
+DATABASE = "tbot"     ## data-base name
 
-USER = "jrYPmtDJWF"         ## associated user
+USER = "melrose"         ## associated user
 
-PASSWORD = "CjPfV54VZ7"     ## password 
+PASSWORD = "wQ$#V@b%M54Qg5WW"     ## password 
 
 
 ## connect to MySQL server
