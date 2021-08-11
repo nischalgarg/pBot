@@ -218,7 +218,7 @@ def sample_responses(input_text):
         return sample_texts.hardware_wallet_text
 
     if ('max' in user_message or 'current' in user_message) and 'supply' in user_message:
-        return sample_texts.max_current_supply_text
+        return null
     
     
     #Checking user message for specific keywords
