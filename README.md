@@ -6,7 +6,7 @@ This message can be deleted later.
 The bot reads user messages in one-on-one chat by default.
 
 If the bot is being used in a group, it can read user messages only if it has access to user messages.
-This permission shall be provided by the owner of the group or by provoding admin status to the bot.
+This permission shall be provided by the owner of the group or by providing admin status to the bot.
 The buttons, however, shall function in the groups even without access to reading user messages.
 
 __________________________________________________________________________________________________________________________________________________
